@@ -1,0 +1,57 @@
+/* Layout. */
+
+/* Estilos. */
+.header-nav {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+.titulo {
+    color: #838282;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-right: auto; 
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.opcion {
+    text-decoration: none;
+    color: #3190f5; /* Letras azules */
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.boton {
+    text-decoration: none;
+    color: #3190f5; /* Letras azules */
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 8px 15px;
+    border: 2px solid #3190f5; /* Borde azul */
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-right: 400px;
+    margin-top: 20px;
+    
+}
